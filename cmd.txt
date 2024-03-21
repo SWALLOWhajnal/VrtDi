@@ -1,0 +1,6 @@
+python main_test_vrt.py --task 005_VRT_videodeblurring_DVD --folder_lq  data/blur10/  --tile 10 320 256 --tile_overlap 2 20 20 --save_result
+
+2个进程
+python main_test_vrt.py --task 005_VRT_videodeblurring_DVD --folder_lq  data/blur10/  --tile 20 256 256 --tile_overlap 2 20 20 --save_result --num_workers=2
+
+EOF
