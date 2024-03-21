@@ -17,3 +17,9 @@ python main_test_vrt.py   --task 001_VRT_videosr_bi_REDS_6frames     --folder_lq
 
 python main_test_vrt.py    --task 001_VRT_videosr_bi_REDS_6frames    --folder_lq=<data_dir>/DIV2K_LSDIR_valid_LR     --folder_gt=<data_dir>/DIV2K_LSDIR_valid_HR    --tile 10 256 256       --tile_overlap 2 20 20    --num_workers=4
 
+
+
+#The  pretrained models will be downloaded automatically from
+[pretrain_model](https://drive.google.com/file/d/1lY1M_9UlgXr9VUzQAbYSTUdYjqoVmz3j/view?usp=sharing).
+
+
